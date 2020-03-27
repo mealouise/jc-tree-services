@@ -1,0 +1,29 @@
+
+nav {
+    background-image:  url(../images/bushes.jpeg);
+    padding: 20px 40px;
+    display: flex;
+    justify-content: center;
+    /* justify-content: space-between; */
+}
+
+nav ul {
+    /* justify-content: space-between; */
+    justify-content: center;
+}
+
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 10px 15px;
+    color:#4c7462;
+    font-weight: bold;
+    margin-right: 40px;
+    font-size: 17px;
+    background-color: #51a259;
+}
+
+nav li a {
+    text-decoration: none;
+    color: white;
+}

@@ -1,0 +1,33 @@
+.footer__section {
+    background-color: #51a259;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+ul li {
+    list-style: none;
+    color: white;
+}
+
+/* li:last-child {
+    border-bottom: 1px solid black;
+} */
+
+#copyright {
+    color: white;
+    padding-bottom: 10px;
+    content: "";
+    display: block;
+    margin: 0 auto;
+    width: 94%;
+    padding-top: 10px;
+    border-top: 1px solid #4c7462;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+
+i {
+    padding-right: 10px;
+}
