@@ -4,7 +4,7 @@ import Navbar from './components/Navbar.js';
 import Home from './components/Home.js';
 import About from './components/About.js';
 import Callback from './components/Callback.js';
-import Reviews from './components/Reviews.js';
+import Quote from './components/Quote.js';
 import Footer from './components/Footer.js';
 import {BrowserRouter, Route, Switch} from 'react-router-dom';
 import checkatrader from './images/checkatrader.png';
@@ -28,7 +28,7 @@ function App() {
 
       <ul>
         <li className="website-links">
-          <a href="https://www.checkatrade.com/?ds_eid=700000001660009&ds_c=Brand+-+Pure+%E2%80%93+Checkatrade+%E2%80%93+BMM&ds_ag=Checkatrade+BMM&ds_k=%2Bcheckatrade&gclid=CjwKCAjwguzzBRBiEiwAgU0FT6E6M5oXIa8rPlpgruiI8RCDERPIxZyzfdzV6yUZ5K7SsBg0ok-puxoCDLIQAvD_BwE&gclsrc=aw.ds" target="_blank">
+          <a href="https://www.checkatrade.com/trades/JcTreeServices/" target="_blank">
           <img className="logo-links" src={checkatrader} alt="checkatrader" />
           </a>
           <span class="fa fa-star checked"></span>
@@ -70,7 +70,7 @@ function App() {
         <Route path='/' component={Home} exact />
         <Route path='/about' component={About} />
         <Route path='/callback' component={Callback} />
-        <Route path='/reviews' component={Reviews} />
+        <Route path='/quote' component={Quote} />
       </Switch>
     </BrowserRouter>
     <Footer />

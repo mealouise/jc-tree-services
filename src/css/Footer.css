@@ -6,7 +6,8 @@
 
 ul li {
     list-style: none;
-    color: white;
+    color: #F7DB6E;
+    font-weight: bold;
 }
 
 /* li:last-child {
@@ -14,18 +15,20 @@ ul li {
 } */
 
 #copyright {
-    color: white;
+    color:#F7DB6E;
     padding-bottom: 10px;
     content: "";
     display: block;
-    margin: 0 auto;
-    width: 94%;
     padding-top: 10px;
     border-top: 1px solid #4c7462;
+    width: 75%;
+    margin-left: 40px;
+    font-weight: bold;
 }
 a {
     text-decoration: none;
-    color: white;
+    color: #F7DB6E;
+    font-weight: bold;
 }
 
 i {

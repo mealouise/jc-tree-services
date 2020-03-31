@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+
+
+.home__container {
+    background-image: url(../images/joshvan.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    /* opacity: 0.6; */
+    /* padding-top: 50px;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    align-items: center; */
+}
+
+
+.home__description {
+    font-family: 'Open Sans', sans-serif;
+    justify-content: center;
+    text-align: center;
+    width: 75%;
+    font-size: 18px;
+}
+
+#header {
+    margin: 0;
+    text-align: center;
+    font-size: 50px;
+    padding-top: 50px;
+}
+
+.home__content {
+    padding-top: 50px;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.home__button {
+    text-align: center;
+    padding: 0 40px;
+}
+
+.home__link {
+    cursor: pointer;
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+    background-color: #51a259;
+    border-color: #51a259;
+    color: white;
+    padding: 10px;
+}

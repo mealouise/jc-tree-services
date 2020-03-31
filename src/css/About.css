@@ -9,6 +9,7 @@ h2 {
 .about__paragraph {
     font-family: 'Open Sans', sans-serif;
     color: #6d6d6d;
+    width: 50%;
 }
 .about__description {
     margin-top: 50px;
