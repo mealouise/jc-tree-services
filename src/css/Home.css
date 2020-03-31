@@ -3,7 +3,7 @@
 
 
 .home__container {
-    background-image: url(../images/joshvan.jpg);
+    /* background-image: url(../images/joshvan.jpg); */
     height: 100vh;
     background-size: cover;
     background-position: center;
@@ -38,6 +38,7 @@
     text-align: center;
     flex-direction: column;
     align-items: center;
+    padding: 40px;
 }
 
 .home__button {
@@ -53,4 +54,9 @@
     border-color: #51a259;
     color: white;
     padding: 10px;
+}
+
+
+#home__subheading {
+    text-align: center;
 }

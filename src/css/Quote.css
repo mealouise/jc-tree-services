@@ -5,6 +5,8 @@
     align-items: center;
     margin: 40px auto;
     max-width: 700px;
+    background-color: #f8fafd;
+    padding: 5px;
 
 }
 
@@ -26,15 +28,15 @@
     content: "";
     height: 6px;
     width: 6px;
-    background-color: #d4d4d4;
+    background-color: #dcdcdc;
     border-radius: 50%;
     transition: background-color 0.3s ease;
 }
 
 .Quote__button:hover::before {
-    background-color: #45454d;
+    background-color: #51a259;
 }
 
 .Quote__button--active::before {
-    background-color: #45454d;
+    background-color: #51a259;
 }

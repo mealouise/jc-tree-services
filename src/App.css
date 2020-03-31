@@ -33,7 +33,38 @@ header li a {
 }
 
 .checked {
-    color: blue;
+    color: #3a559f;
 }
 
+.check {
+    color: #72aafc;
+}
 
+.star {
+    color: #FCDC32;
+}
+
+.website-reviews {
+    padding: 20px 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.website-reviews  ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 10px 15px;
+  }
+
+.review-rating {
+    color: black;
+    font-size: 15px;
+    font-weight: lighter;
+}
+
+.emergency-subheader {
+    background-color:red;
+    color:white;
+    padding: 5px;
+    text-align: center;
+}

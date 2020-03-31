@@ -9,24 +9,28 @@ h2 {
 .about__paragraph {
     font-family: 'Open Sans', sans-serif;
     color: #6d6d6d;
-    width: 50%;
 }
 .about__description {
     margin-top: 50px;
     height:100vh;
     display: flex;
     justify-content: center;
+    padding: 40px;
 }
 
 .about__content {
     display:flex;
-    margin-left: 50px;
-    margin-right: 50px;
+    
+}
+
+.about__headings {
+    margin-left: 46px;
 }
 .about__images {
     display: flex;
     flex-direction: row;
     margin-left: 50px;
+    margin-top: 20px;
 }
 
 .about__profile {

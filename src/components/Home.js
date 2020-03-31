@@ -1,7 +1,8 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
+import Quote from '../components/Quote.js';
+// import * as Scroll from 'react-scroll';
 import '../css/Home.css';
-
 
 
 export default function Home() {
@@ -17,7 +18,16 @@ export default function Home() {
                     <Link to="/callback"><button className="home__link">Get a Free Quote</button></Link>
                 </div> 
             </div>
+            <h1 id="home__subheading">Customer Reviews</h1>
+            <Quote />
+            {/* <ScrollToTop showUnder={160}>
+            <span>UP</span>
+            </ScrollToTop> */}
 
         </div>
     )
 }
+
+
+
+

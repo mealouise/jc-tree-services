@@ -5,9 +5,17 @@ import '../css/Callback.css';
 export default function Callback(prop) {
     return (
         <div className="callback__layout">
+            <header className="callback__header">Request a Callback</header>
 
             <div className="callback__content">
-                <header className="callback__header">Request a Callback</header>
+            <div>
+                <h3>We provide free quotes for all domestic and commercial work.</h3>
+                <p>Please fill out the form and we will get back to you as soon as possible</p>
+            </div>
+
+            
+            
+            <div>  
                 <form action="mailto:someone@example.com" method="post" enctype="text/plain">
                     <input className="callback__type" type="text" onfocus="this.value=''" name="name" placeholder="Your Name"/><br/><br/>
         
@@ -18,6 +26,7 @@ export default function Callback(prop) {
                     <input type="file" id="img" name="img" accept="image/*"></input>
                     <button className="callback__type" type="submit" value="submit">Submit</button>
                 </form>
+            </div>  
             </div>
 
         </div>

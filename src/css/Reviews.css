@@ -1,0 +1,23 @@
+.reviews__list li {
+    background-color: #f8fafd;
+    margin:0;
+    padding:0;
+    padding: 10px;
+    color: black;
+    box-shadow: 10px 5px 5px #dcdcdc;
+    /* padding: 5px; */
+    /* margin: 0 0 3px 0; */
+}
+
+.reviews__text {
+    font-weight: lighter;
+}
+
+#reviews__header {
+    text-align: center;
+}
+
+.reviews__container {
+    margin-top: 50px;
+    padding: 40px;
+}

@@ -1,7 +1,9 @@
 .footer__section {
     background-color: #51a259;
+    padding: 40px;
     padding-top: 5px;
     padding-bottom: 5px;
+    
 }
 
 ul li {

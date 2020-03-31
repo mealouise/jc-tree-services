@@ -6,9 +6,9 @@ body {
 }
 
 form {
-    background-color: #fcdb33;
+    background-color: #51a259;
     padding: 31px;
-    border: 1px solid #fcdb33;
+    border: 1px solid #51a259;
 }
 
 .callback__layout{
@@ -20,7 +20,8 @@ form {
 
 .callback__header {
     font-size: 32px;
-    font-family:'Poppins', sans-serif; 
+    font-family:'Poppins', sans-serif;
+    text-align: center; 
 }
 .callback__type {
     font-size: 20px;
